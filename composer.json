@@ -1,4 +1,11 @@
 {
+  "repositories": [
+
+        {
+            "type": "vcs",
+            "url": "https://github.com/user/magiccart"
+        }
+    ],
   "name" : "studioraz/magento2-unicode-url",
   "description" : "Magento 2 module for allowing categories and products UTF-8 URL keys",
   "type" : "magento2-module",
