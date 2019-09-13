@@ -2,10 +2,10 @@
   "repositories": [
     {
         "type": "vcs",
-        "url": "https://github.com/magiccart/magento2-unicode-url"
+        "url": "https://github.com/studioraz/magento2-unicode-url"
     }
   ],
   "require": {
-      "studioraz/magento2-unicode-url": "dev-bugfix"
+      "magiccart/magento2-unicode-url": "dev-vietnamese"
   }
 }
