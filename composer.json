@@ -3,7 +3,7 @@
 
         {
             "type": "vcs",
-            "url": "https://github.com/user/magiccart"
+            "url": "https://github.com/magiccart/magento2-unicode-url"
         }
     ],
   "name" : "studioraz/magento2-unicode-url",
