@@ -1,28 +1,11 @@
 {
   "repositories": [
-
-        {
-            "type": "vcs",
-            "url": "https://github.com/magiccart/magento2-unicode-url"
-        }
-    ],
-  "name" : "studioraz/magento2-unicode-url",
-  "description" : "Magento 2 module for allowing categories and products UTF-8 URL keys",
-  "type" : "magento2-module",
-  "prefer-stable": true,
-  "version" : "0.0.2",
-  "license": [
-    "OSL-3.0",
-    "AFL-3.0"
-  ],
-  "autoload": {
-    "files": [ "registration.php" ],
-    "psr-4": {
-      "SR\\UnicodeUrl\\": ""
+    {
+        "type": "vcs",
+        "url": "https://github.com/magiccart/magento2-unicode-url"
     }
-  },
-  "support": {
-    "email": "support@studioraz.co.il",
-    "wiki": "http://www.studio-raz.com"
+  ],
+  "require": {
+      "studioraz/magento2-unicode-url"
   }
 }
