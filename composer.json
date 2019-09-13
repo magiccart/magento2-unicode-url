@@ -1,17 +1,11 @@
-"repositories": [
-    {
-        "type":"package",
-        "package": {
-          "name": "magiccart/magento2-unicode-url",
-          "version":"master",
-          "source": {
-              "url": "https://github.com/magiccart/magento2-unicode-url",
-              "type": "git",
-              "reference":"master"
-            }
+{
+    "repositories": [
+        {
+             "url": "https://github.com/magiccart/magento2-unicode-url",
+            "type": "git"
         }
+    ],
+    "require": {
+        "studioraz/magento2-unicode-url": "master"
     }
-],
-"require": {
-    "studioraz/magento2-unicode-url": "master"
 }
