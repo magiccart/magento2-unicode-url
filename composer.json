@@ -1,15 +1,17 @@
-{  
-    "name": "magiccart/magento2-unicode-url",  
-    "description": "magento2 url vietnamese.",  
-    "license": "MIT",  
-    "type": "project",  
-    "repositories": [  
-        {  
-            "type": "git",  
-            "url": "https://github.com/magiccart/magento2-unicode-url"  
-        }  
-    ],  
-    "require": {  
-        "studioraz/magento2-unicode-url": "dev-master"
-    }  
+"repositories": [
+    {
+        "type":"package",
+        "package": {
+          "name": "magiccart/magento2-unicode-url",
+          "version":"master",
+          "source": {
+              "url": "https://github.com/magiccart/magento2-unicode-url",
+              "type": "git",
+              "reference":"master"
+            }
+        }
+    }
+],
+"require": {
+    "studioraz/magento2-unicode-url": "master"
 }
