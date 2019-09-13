@@ -6,6 +6,6 @@
     }
   ],
   "require": {
-      "studioraz/magento2-unicode-url"
+      "studioraz/magento2-unicode-url": "dev-bugfix"
   }
 }
