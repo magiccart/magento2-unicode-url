@@ -22,4 +22,13 @@
                 type="SR\UnicodeUrl\Plugin\MagentoStore\App\Request\PathInfoProcessor"/>
     </type>
 
+    <type name="Magefan\Blog\Controller\Adminhtml\Post\Save">
+        <plugin name="sr_magefan_blog_post" type="SR\UnicodeUrl\Plugin\Blog\TranslitUrlPost"/>
+    </type>
+
+    <type name="Magefan\Blog\Controller\Adminhtml\Category\Save">
+        <plugin name="sr_magefan_blog_category" type="SR\UnicodeUrl\Plugin\Blog\TranslitUrlCategory"/>
+    </type>
+
+
 </config>
